@@ -1,38 +1,102 @@
 .App {
+  color: #fff;
+  background: #1c2535;
+  min-height: 100vh;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button { 
+	-webkit-appearance: none;
+} 
+
+.nav {
+  width: 100%;
+  height: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.links {
+  float: right;
+  margin-right: 20px;
+  display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.link {
+  padding: 20px;
+}
+
+.connect-wallet {
+  transition: .5s;
+  background-color: #fb55a2;
+  color: #fff;
+  border: none;
+}
+
+.connect-wallet:hover {
+  transition: .5s;
+  cursor: pointer;
+  background-color: #ff9dcb;
+}
+
+.operate-btn {
+  cursor: pointer;
+  border-radius: 25px;
+  padding: 20px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-size: 2em;
+}
+
+.mintAmount {
+  text-align: center;
+  color: #fff;
+  background: transparent;
+  border: none;
+  font-size: 2em;
+}
+
+.mint-box {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mint-box > h1 {
+  font-size: 2.5em;
+  text-shadow: 0 0 20px #f76d9e,
+               0 0 30px #f76d9e,
+               0 0 40px #f76d9e;
+}
+
+.mint-btn {
+  transition: .5s;
+  width: 30%;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: #c8587f;
+  color: #fff;
+  border: none;
+}
+
+.mint-btn:hover {
+  transition: .5s;
+  cursor: pointer;
+  background-color: #f76d9e;
+  box-shadow: 0 0 10px #fff;
+}
+
+.wallet-info {
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 50%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.wallet-info-el {
+  padding: 10px;
+  text-align: left;
 }
