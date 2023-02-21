@@ -8,7 +8,7 @@ Token built in standard ERC-721 in solidity language
 Type in console `npm install`
 
 ## :hammer_and_wrench: Commands
-To deploy contract type `npx hardhat run scripts/deploy.js`
+To deploy contract type `npx hardhat run scripts/deploy.js` \
 To run application type `npm start` \
 To build application type `npm run build`
 
