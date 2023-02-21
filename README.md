@@ -1,4 +1,4 @@
-# BEZ Token App :chains:
+# BEZ Token App :earth_africa:
 Decentralized app based on ethereum crypto using hardhat, ethers.js, MetaMask and react. In application you can buy some BEZ Tokens paying by ethereum.
 
 ## :credit_card: BEZ Token
@@ -10,7 +10,7 @@ Type in console `npm install`
 ## :hammer_and_wrench: Commands
 To deploy contract type `npx hardhat run scripts/deploy.js`
 To run application type `npm start` \
-To build application type `npm run build` \
+To build application type `npm run build`
 
 ## :construction_worker: Project using [hardhat](https://github.com/NomicFoundation/hardhat)
 
